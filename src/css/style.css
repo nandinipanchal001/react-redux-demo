@@ -1,0 +1,8 @@
+header ,footer{
+    background-color: coral;
+    height:80px;
+}
+
+.content{
+    height:200px;
+}
