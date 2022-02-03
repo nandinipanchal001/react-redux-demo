@@ -4,5 +4,21 @@ header ,footer{
 }
 
 .content{
-    height:200px;
+    height:400px;
 }
+
+.inputForm{
+    margin: 0 auto;
+    padding: 30px;
+    width:300px;
+
+}
+
+.inputForm input{
+    width: 300px;
+    padding: 6px;
+    margin: 5px;
+}
+ .inputForm button{
+     margin: 15px 0 0 120px;
+ }
