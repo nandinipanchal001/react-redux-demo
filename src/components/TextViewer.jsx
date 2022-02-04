@@ -1,6 +1,6 @@
 import react from 'react'
 
-export default function TextViewer(props){
+const TextViewer = (props) => {
     return(
         <>
         <div className='data'>
@@ -9,3 +9,5 @@ export default function TextViewer(props){
         </>
     )
 }
+
+export default TextViewer

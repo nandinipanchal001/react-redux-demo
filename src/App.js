@@ -1,15 +1,17 @@
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import { BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import react from 'react'
+import Assignment1 from './Assignment1';
+import Assignment2 from './Assignment2';
 
-function App() {
+
+const App = () => {
   return (
-    <>
-    <Header/>
-    <Content/>
-    <Footer/>
-    </>
+    <Router>
+    <Switch>
+      <Route path={"/assignment-static"}><Assignment1/></Route>
+      <Route path={"/assignment-show-my-name"}><Assignment2/></Route>
+    </Switch>
+    </Router>
   );
 }
 
