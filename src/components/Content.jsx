@@ -1,5 +1,5 @@
 
-import react from 'react'
+import React from 'react'
 import '../css/style.css'
 
 const Content =() => {

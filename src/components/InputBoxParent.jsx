@@ -1,4 +1,4 @@
-import react ,{useState} from 'react'
+import React ,{useState} from 'react'
 import '../css/style.css'
 import InputBox from './InputBox'
 import TextViewer from './TextViewer'
